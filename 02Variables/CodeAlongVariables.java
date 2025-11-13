@@ -10,13 +10,14 @@ public class CodeAlongVariables {
         int newInt3 = value1 / value2; // will truncate the value, 5.5 -> 5
         int newInt4 = value1 - value2;
         int newInt5 = value1 % value2;
-        newInt2 = (value1 / value2) * ((newInt2 % value1) + newInt5);
+        
+        carpim = (value1 / value2) * ((carpim % value1) + kalan);
 
-        System.out.println(newInt + " " + newInt2 + " " + newInt3 + " " + newInt4);
-        System.out.println(newInt5);
-
+        System.out.println("Toplam: " + toplam);
+        System.out.println("Çarpım: " + carpim);
+        System.out.println("Bölüm: " + bolum);
+        System.out.println("Fark: " + fark);
+        System.out.println("Kalan: " + kalan);
         System.out.println("END OF PROGRAM");
-
     }
-    
 }
